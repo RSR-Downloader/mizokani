@@ -24,7 +24,7 @@ Hi...ka hnathawh theih i hriat duh chuan\n /help tih hi click rawh.**
 
 HELP_STRINGS = """
 
-Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nI awmna group ah min add la,Admin ah min dah dawn nia,chuan hnathawh tur in ka nung nghal ang,group a min add dan tur i hriat loh chuan @rsrmusic hnen ah iva zawt dawn nia.
+Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nI awmna group ah min add la,Admin ah min dah dawn nia,chuan hnathawk tur in ka nung nghal ang,group a min add dan tur i hriat loh chuan @rsrmusic hnen ah iva zawt dawn nia.
 
 
 
