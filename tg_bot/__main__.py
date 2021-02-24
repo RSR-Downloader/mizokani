@@ -24,7 +24,7 @@ Hi...min hman dan tur i hriat duh chuan\n /help tih hi click rawh.**
 
 HELP_STRINGS = """
 
-Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.
+Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\n Link hi click la,i awmna group ah min add rawh,chuan Admin ah min dah dawn nia.
 
 *Command* pawimawh zual:
  - /start: Min tih nun na.
@@ -132,7 +132,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("Tho rawh😏😏😏")
+        update.effective_message.reply_text("Hnathawk tur in ka inpeih e👮‍♀️")
 
 
 # for test purposes
