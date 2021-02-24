@@ -74,20 +74,20 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("mension one.... 🤷🏻‍♂.")
+        message.reply_text("mension one🤷🏻‍♂.")
         return ""
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("i cant ban creator of the group.... 😬")
+        message.reply_text("Creator ka ban theilo")
         return ""
 
     if not user_member.status == 'administrator':
-        message.reply_text("Can't demote what wasn't promoted!")
+        message.reply_text("A demote theih tawhloh!")
         return ""
 
     if user_id == bot.id:
-        message.reply_text("I can't demote myself! Get an admin to do it for me.")
+        message.reply_text("Mahni ka in demote theilo!")
         return ""
 
     try:
@@ -109,8 +109,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
                                           mention_html(user_member.user.id, user_member.user.first_name))
 
     except BadRequest:
-        message.reply_text("Could not demote. I might not be admin, or the admin status was appointed by another "
-                           "user, so I can't act upon them!")
+        message.reply_text("Demote tur in ka chak tawk lo!")
         return ""
 
 
@@ -182,9 +181,9 @@ def invite(bot: Bot, update: Update):
             invitelink = bot.exportChatInviteLink(chat.id)
             update.effective_message.reply_text(invitelink)
         else:
-            update.effective_message.reply_text("I don't have access to the invite link, try changing my permissions!")
+            update.effective_message.reply_text("Invite link ka luh pawh theilo,ka permission check tha la,siam that ngai siamtha rawh!")
     else:
-        update.effective_message.reply_text("I can only give you invite links for supergroups and channels, sorry!")
+        update.effective_message.reply_text("Group leh Channel ah chiah invite link ka thawn thei che,tihpalh!")
 
 
 @run_async
@@ -217,14 +216,14 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /adminlist: list of admins in the chat
+ - /adminlist: Group chhung a Admin list check na.
 
 *Admin only:*
- - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
- - /unpin: unpins the currently pinned message
- - /invitelink: gets invitelink
- - /promote: promotes the user replied to
- - /demote: demotes the user replied to
+ - /pin: Hemi hmang hian chat i pin thei ang,i pin duh kha hemi hmang hian reply mai tur ani e.
+ - /unpin: I chat pin kha i unpin duh chuan heihi hman leh mai tur.
+ - /invitelink: Invite link lak chhuah na.
+ - /promote: An chat reply na ah hemi i thawn chuan i promote thei ang.
+ - /demote: An chat ah bawk i reply leh chuan i demote ang.
 """
 
 __mod_name__ = "Admin"
