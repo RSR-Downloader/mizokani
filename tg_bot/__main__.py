@@ -24,9 +24,9 @@ Hi...min hman dan tur i hriat duh chuan\n /help tih hi click rawh.**
 
 HELP_STRINGS = """
 
-Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\n Link hi click la,i awmna group ah min add rawh,chuan Admin ah min dah dawn nia.
+Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nAdd me in your Group tih button khu click la,i awmna group ah min add rawh,chuan Admin ah min dah dawn nia.
 
-https://telegram.me/mami_mz_bot?startgroup=chat
+[Add me in your Group](buttonurl:https://telegram.me/mami_mz_bot?startgroup=chat)
 
 *Command* pawimawh zual:
  - /start: Min tih nun na.
