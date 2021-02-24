@@ -18,13 +18,13 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi...Link hi click la i awmna group ah min add rawh,chuan admin ah min dah dawn nia,\n https://telegram.me/mami_mz_bot?startgroup=chat \n chuan,ka hnathawh theih i hriat duh chuan\n /help tih hi click rawh.**
+Hi...ka hnathawh theih i hriat duh chuan\n /help tih hi click rawh.**
 
 """
 
 HELP_STRINGS = """
 
-Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.
+Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nI awmna group ah min add la,Admin ah min dah dawn nia,chuan hnathawh tur in ka nung nghal ang,group a min add dan tur i hriat loh chuan @rsrmusic hnen ah iva zawt dawn nia.
 
 
 
