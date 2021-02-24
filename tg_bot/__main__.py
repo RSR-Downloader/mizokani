@@ -26,15 +26,15 @@ HELP_STRINGS = """
 
 Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.
 
-*Main* Command pawimawh:
+*Command* pawimawh zual:
  - /start: Min tih nun na.
  - /help: Puih i mamawh chuan.
  - /donate: Donation lam a hriattur pawimawh!
  
 
 {}
-And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nCommand na tur bul zel ah / emaw ! hman tur.\n")
+A hnuai a button ho hi ka hna thawh theih te an nia,click la hman dan i hrethiam thei ang,hnamdang pawn min hman duh thut tak in tih thu ah min siam tu hian button ami ho khu chu a tamzawk english in a dah a,hriatthiam loh leh zawh duh i neih chuan @rsrmusic hnen ah hian i zawt thei ang.
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nCommand na tur bul zel ah / hman tur.\n")
 
 DONATE_STRING = """Donation lam ah hriat duh i neih chuan.
  [min siamtu](t.me/rsrmusic)
