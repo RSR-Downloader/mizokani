@@ -24,7 +24,7 @@ Hi...ka hnathawh theih i hriat duh chuan\n /help tih hi click rawh.**
 
 HELP_STRINGS = """
 
-Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nI awmna group ah min add la,Admin ah min dah dawn nia,chuan hnathawk tur in ka nung nghal ang,group a min add dan tur i hriat loh chuan @rsrmusic hnen ah iva zawt dawn nia.
+Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tur che Bot ka ni e.\nI awmna group ah min add la,Admin ah min dah dawn nia,chuan hnathawk tur in ka nung nghal ang,group a min add dan tur i hriat loh chuan @ZauteKm hnen ah iva zawt dawn nia.
 
 
 
@@ -35,11 +35,11 @@ Hi! ka hming chu *{}* ania,group enkawl lam ah i zangkhai zawk nan a pui thei tu
  
 
 {}
-A hnuai a button ho hi ka hna thawh theih te an nia,click la hman dan i hrethiam thei ang,hnamdang pawn min hman duh thut tak in tih thu ah min siam tu hian button ami ho khu chu a tamzawk english in a dah a,hriatthiam loh leh zawh duh i neih chuan @rsrmusic hnen ah hian i zawt thei ang.
+A hnuai a button ho hi ka hna thawh theih te an nia,click la hman dan i hrethiam thei ang,hnamdang pawn min hman duh thut tak in tih thu ah min siam tu hian button ami ho khu chu a tamzawk english in a dah a,hriatthiam loh leh zawh duh i neih chuan @ZauteKm hnen ah hian i zawt thei ang.
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nCommand na tur bul zel ah / hman tur.\n")
 
 DONATE_STRING = """Donation lam ah hriat duh i neih chuan.
- [min siamtu](t.me/rsrmusic)
+ [min siamtu](t.me/ZauteKm)
 
 
 Min siamtu hnen ah i tan ka tangkai chuan heta tang hian i phal zah zah i pe thei ang; [PayPal](paypal.me/rickyzote)"""
