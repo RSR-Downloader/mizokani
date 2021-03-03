@@ -226,6 +226,7 @@ OWNER_ID),
  else:
 update.effective_message.reply_text("waked up😏😏😏")
 
+
 # for test purposes
 
 def error_callback(bot, update, error):
@@ -364,6 +365,7 @@ query.message.reply_text(HELP_STRINGS,
 
  LOGGER.exception("Exception in help buttons. %s", str(query.data))
 
+ 
 @run_async
 
 def get_help(bot: Bot, update: Update):
@@ -454,6 +456,7 @@ else:
 
  parse_mode=ParseMode.MARKDOWN)
 
+ 
 @run_async
 
 def settings_button(bot: Bot, update: Update):
